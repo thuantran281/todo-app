@@ -1,0 +1,58 @@
+@media (max-width: 576px) {
+    
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .input-box {
+        width: 35%;
+        height: 30px;
+    }
+
+    .input-padding {
+        padding-left: 12px;
+    }
+
+    .todo-submit {
+        width: 3rem;
+    }
+
+    .button-rounded {
+        border-radius: 30px;
+    }
+
+    .todo-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .todo-list li {
+        margin: 10px 0;       
+    }
+}
+
+@media (min-width: 1400px) {
+    
+}
+
+
+.app-name {
+    font-family: "Lora", sans-serif;
+}
+
+input[type="text"] {
+    border: 1px solid;
+}
