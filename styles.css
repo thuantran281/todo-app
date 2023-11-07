@@ -1,153 +1,24 @@
-@media (max-width: 576px) {
-    .input-box {
-        width: 50%;
-        height: 30px;
-    }
-
-    .input-padding {
-        padding-left: 10px;
-    }
-
-    .todo-list {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .todo-list li {
-        margin: 10px 0;
-        font-size: 16px;       
-    }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-    .input-box {
-        width: 40%;
-        height: 30px;
-    }
-
-    .input-padding {
-        padding-left: 10px;
-    }
-
-    .todo-list {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .todo-list li {
-        margin: 10px 0;
-        font-size: 18px;       
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .input-box {
-        width: 40%;
-        height: 30px;
-    }
-
-    .input-padding {
-        padding-left: 10px;
-    }
-
-    .todo-list {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .todo-list li {
-        margin: 10px 0;
-        font-size: 18px;       
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    .input-box {
-        width: 35%;
-        height: 30px;
-    }
-
-    .input-padding {
-        padding-left: 11px;
-    }
-
-    .todo-list {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .todo-list li {
-        margin: 10px 0;
-        font-size: 18px;       
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1400px) {
-    .input-box {
-        width: 35%;
-        height: 30px;
-    }
-
-    .input-padding {
-        padding-left: 12px;
-    }
-
-    .todo-submit {
-        width: 3rem;
-    }
-
-    .button-rounded {
-        border-radius: 30px;
-    }
-
-    .todo-list {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .todo-list li {
-        margin: 10px 0;
-        font-size: 20px;       
-    }
-}
-
-@media (min-width: 1400px) {
-    .input-box {
-        width: 40%;
-        height: 30px;
-    }
-
-    .input-padding {
-        padding-left: 12px;
-    }
-
-    .todo-list {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .todo-list li {
-        margin: 10px 0;
-        font-size: 23px;       
-    }
+#addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171, 206, 161, 0.35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10rem;
 }
 
 .app-name {
     font-family: "Lora", sans-serif;
 }
 
-input[type="text"] {
-    border: 1.5px solid;
+.fa-plus {
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#message{
+    color: red;
 }
